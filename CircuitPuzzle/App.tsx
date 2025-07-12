@@ -1,20 +1,38 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import 'react-native-gesture-handler';
+import React from 'react';
+import { StatusBar } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import { AppProvider } from './src/context/AppContext';
+import { RootStackParamList } from './src/types';
+
+// Import screens
+import HomeScreen from './src/screens/HomeScreen';
+import LevelSelectScreen from './src/screens/LevelSelectScreen';
+import GameScreen from './src/screens/GameScreen';
+
+const Stack = createStackNavigator<RootStackParamList>();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaProvider>
+      <AppProvider>
+        <StatusBar barStyle="light-content" backgroundColor="#1a1a2e" />
+        <NavigationContainer>
+          <Stack.Navigator
+            initialRouteName="Home"
+            screenOptions={{
+              headerShown: false,
+              cardStyle: { backgroundColor: '#1a1a2e' },
+            }}
+          >
+            <Stack.Screen name="Home" component={HomeScreen} />
+            <Stack.Screen name="LevelSelect" component={LevelSelectScreen} />
+            <Stack.Screen name="Game" component={GameScreen} />
+          </Stack.Navigator>
+        </NavigationContainer>
+      </AppProvider>
+    </SafeAreaProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
