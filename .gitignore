@@ -1,0 +1,14 @@
+# Ignore node modules and expo build outputs
+**/node_modules/
+**/.expo/
+**/dist/
+**/web-build/
+# Yarn artifacts
+**/yarn.lock
+**/.yarn/
+**/.yarnrc.yml
+# OS generated files
+.DS_Store
+# Ignore bundled assets to avoid binary files
+**/assets/*.png
+

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "CircuitPuzzle",
-    "slug": "CircuitPuzzle",
+    "name": "PocketFidgets",
+    "slug": "PocketFidgets",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
