@@ -1,0 +1,5 @@
+# Exclude Yarn install cache
+**/.yarn/
+
+# Ignore default Expo asset images
+**/assets/
