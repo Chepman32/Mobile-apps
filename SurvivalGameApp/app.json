@@ -1,13 +1,9 @@
 {
   "expo": {
-    "name": "CircuitPuzzle",
-    "slug": "CircuitPuzzle",
+    "name": "SurvivalGameApp",
+    "slug": "SurvivalGameApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "ios": { "supportsTablet": true },
-    "android": { "edgeToEdgeEnabled": true }
     "icon": "",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
