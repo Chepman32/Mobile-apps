@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "TiltCharades",
+    "slug": "tiltcharades",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}
