@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "PhotoMemo",
+    "slug": "photo-memo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "jsEngine": "hermes"
+  }
+}
