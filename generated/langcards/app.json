@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "LangCards",
+    "slug": "langcards",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}

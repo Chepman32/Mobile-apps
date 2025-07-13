@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "TileMatch Pro",
+    "slug": "tilematch-pro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}

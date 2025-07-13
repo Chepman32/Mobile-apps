@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "Sudoku Social",
+    "slug": "sudoku-social",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}
