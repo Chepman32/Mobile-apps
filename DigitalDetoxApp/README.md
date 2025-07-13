@@ -13,6 +13,13 @@ expo start
 
 ## Overview
 
-The current codebase provides a minimal structure with a home screen and timer screen. It is intended as a starting point for implementing the full feature set described in the project specifications.
+This project now includes several core screens:
 
-More features such as achievements and premium content can be added later.
+- Home with challenge list and quick navigation
+- Timer-based Challenge screen
+- Achievement tracking
+- History of completed sessions
+- Simple breathing exercise in the Meditation screen
+- A mock Community Leaderboard
+
+Further enhancements like premium content packs can be integrated later.

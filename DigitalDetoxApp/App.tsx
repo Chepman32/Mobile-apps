@@ -13,6 +13,8 @@ import ChallengeScreen from './src/screens/ChallengeScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
 import HistoryScreen from './src/screens/HistoryScreen';
 import AchievementsScreen from './src/screens/AchievementsScreen';
+import MeditationScreen from './src/screens/MeditationScreen';
+import LeaderboardScreen from './src/screens/LeaderboardScreen';
 
 const Stack = createStackNavigator<RootStackParamList>();
 
@@ -37,6 +39,8 @@ export default function App() {
             <Stack.Screen name="Settings" component={SettingsScreen} />
             <Stack.Screen name="History" component={HistoryScreen} />
             <Stack.Screen name="Achievements" component={AchievementsScreen} />
+            <Stack.Screen name="Meditation" component={MeditationScreen} />
+            <Stack.Screen name="Leaderboard" component={LeaderboardScreen} />
           </Stack.Navigator>
         </NavigationContainer>
       </AppProvider>

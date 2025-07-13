@@ -21,4 +21,6 @@ export type RootStackParamList = {
   Settings: undefined;
   History: undefined;
   Achievements: undefined;
+  Meditation: undefined;
+  Leaderboard: undefined;
 };

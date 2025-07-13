@@ -4,7 +4,7 @@ This repository contains multiple React Native projects built with Expo. Each fo
 
 ## Projects
 
-- **DigitalDetoxApp** - A wellness timer focused on reducing screen time.
+- **DigitalDetoxApp** - A wellness timer with challenges, meditation, and a community leaderboard.
 - **HabitSculptorApp** - AI-inspired habit tracking application.
 - **StoryBuilderApp** - Creative multimedia story builder.
 - **SurvivalGameApp** - Educational survival skills game.

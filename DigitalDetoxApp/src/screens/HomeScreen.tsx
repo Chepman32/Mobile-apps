@@ -49,10 +49,22 @@ const HomeScreen: React.FC<Props> = ({ navigation }) => {
           <Ionicons name="trophy-outline" size={24} color="#8e8e93" />
         </TouchableOpacity>
         <TouchableOpacity
+          onPress={() => navigation.navigate('Meditation' as never)}
+          style={styles.footerButton}
+        >
+          <Ionicons name="leaf-outline" size={24} color="#8e8e93" />
+        </TouchableOpacity>
+        <TouchableOpacity
           onPress={() => navigation.navigate('Settings' as never)}
           style={styles.footerButton}
         >
           <Ionicons name="settings-outline" size={24} color="#8e8e93" />
+        </TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => navigation.navigate('Leaderboard' as never)}
+          style={styles.footerButton}
+        >
+          <Ionicons name="podium-outline" size={24} color="#8e8e93" />
         </TouchableOpacity>
       </View>
     </View>
