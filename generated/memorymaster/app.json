@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "MemoryMaster",
+    "slug": "memorymaster",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}
