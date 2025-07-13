@@ -23,7 +23,7 @@ while IFS= read -r APP || [ -n "$APP" ]; do
     echo "Skipping $APP (already exists)"
   else
     echo "Creating $APP..."
-    npx create-expo-app "$APP" --template
+    npx create-expo-app "$APP" --template expo-template-blank-typescript
     echo "$APP created"
   fi
   echo
