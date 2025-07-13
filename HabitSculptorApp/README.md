@@ -35,19 +35,16 @@ Habit Sculptor is a starting point for an AI-powered habit tracking application 
    git clone <repository-url>
    cd Mobile-apps/HabitSculptorApp
    ```
-
 2. Install dependencies
    ```bash
    yarn install
    # or
    npm install
    ```
-
 3. Start the development server
    ```bash
    expo start
    ```
-
 4. Run on your device/emulator
    - Scan the QR code with Expo Go (iOS) or the Camera app (Android)
    - Press 'i' for iOS simulator

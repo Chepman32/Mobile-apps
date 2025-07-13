@@ -76,19 +76,19 @@ function MainTabs() {
 
 function AppNavigator() {
   const { colors, theme, toggleTheme } = useTheme();
-  
+
   // Theme toggle button component
   const ThemeToggleButton = () => (
-    <TouchableOpacity 
+    <TouchableOpacity
       onPress={toggleTheme}
       style={{
         marginRight: 16,
         padding: 4,
       }}
     >
-      <Ionicons 
-        name={theme === 'dark' ? 'sunny' : 'moon'} 
-        size={24} 
+      <Ionicons
+        name={theme === 'dark' ? 'sunny' : 'moon'}
+        size={24}
         color={colors.headerText}
       />
     </TouchableOpacity>
@@ -102,21 +102,21 @@ function AppNavigator() {
         headerTitleStyle: { fontWeight: 'bold' },
       }}
     >
-      <Stack.Screen 
-        name="MainTabs" 
-        component={MainTabs} 
-        options={{ 
+      <Stack.Screen
+        name="MainTabs"
+        component={MainTabs}
+        options={{
           headerShown: false,
           headerRight: () => <ThemeToggleButton />
-        }} 
+        }}
       />
-      <Stack.Screen 
-        name="Category" 
-        component={CategoryScreen} 
-        options={({ route }) => ({ 
+      <Stack.Screen
+        name="Category"
+        component={CategoryScreen}
+        options={({ route }) => ({
           title: route.params?.categoryName || 'Category',
           headerRight: () => <ThemeToggleButton />
-        })} 
+        })}
       />
       <Stack.Screen
         name="Phrase"
@@ -159,4 +159,3 @@ export default function App() {
     </SafeAreaProvider>
   );
 }
-

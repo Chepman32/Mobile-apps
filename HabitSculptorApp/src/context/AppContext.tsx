@@ -103,7 +103,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       }
       if (progressData) setTodayProgress(JSON.parse(progressData));
       if (journalData) setJournal(JSON.parse(journalData));
-      
+
     } catch (error) {
       console.error('Error loading data:', error);
     } finally {
@@ -121,7 +121,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       return false;
     });
 
-    const completedToday = todayHabits.filter(habit => 
+    const completedToday = todayHabits.filter(habit =>
       habit.completionHistory.some(ch => ch.date === today && ch.count >= habit.targetCount)
     );
 
@@ -138,7 +138,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   const calculateStats = useCallback(() => {
     const totalHabits = habits.length;
-    const completionRate = totalHabits > 0 
+    const completionRate = totalHabits > 0
       ? habits.reduce((sum, habit) => sum + (habit.completionHistory.length > 0 ? 1 : 0), 0) / totalHabits
       : 0;
 
@@ -146,7 +146,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       const date = new Date();
       date.setDate(date.getDate() - (29 - i));
       const dateStr = date.toISOString().split('T')[0];
-      const count = habits.reduce((sum, habit) => 
+      const count = habits.reduce((sum, habit) =>
         sum + (habit.completionHistory.some(ch => ch.date === dateStr) ? 1 : 0), 0);
       return { date: dateStr, count };
     });
@@ -175,7 +175,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   };
 
   const updateHabit = async (id: string, updates: Partial<Habit>) => {
-    const updatedHabits = habits.map(h => 
+    const updatedHabits = habits.map(h =>
       h.id === id ? { ...h, ...updates, updatedAt: new Date().toISOString() } : h
     );
     setHabits(updatedHabits);
@@ -194,7 +194,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     if (!habitToUpdate) return;
 
     const completionIndex = habitToUpdate.completionHistory.findIndex(ch => ch.date === today);
-    
+
     let updatedCompletions = [...habitToUpdate.completionHistory];
     if (completionIndex >= 0) {
       updatedCompletions.splice(completionIndex, 1);
@@ -205,13 +205,13 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     const currentStreak = calculateCurrentStreak(updatedCompletions);
     const longestStreak = Math.max(habitToUpdate.longestStreak, currentStreak);
 
-    const updatedHabits = habits.map(h => 
-      h.id === habitId ? { 
-        ...h, 
+    const updatedHabits = habits.map(h =>
+      h.id === habitId ? {
+        ...h,
         completionHistory: updatedCompletions,
         currentStreak,
         longestStreak,
-        updatedAt: new Date().toISOString() 
+        updatedAt: new Date().toISOString()
       } : h
     );
     setHabits(updatedHabits);
@@ -220,11 +220,11 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   const calculateCurrentStreak = (completions: { date: string }[]) => {
     if (completions.length === 0) return 0;
-    
+
     const sortedDates = [...completions]
       .map(c => new Date(c.date).getTime())
       .sort((a, b) => b - a);
-    
+
     let streak = 0;
     let currentDate = new Date();
     currentDate.setHours(0, 0, 0, 0);
@@ -232,7 +232,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     for (let i = 0; i < sortedDates.length; i++) {
       const checkDate = new Date(currentDate);
       checkDate.setDate(checkDate.getDate() - i);
-      
+
       const hasCompletion = sortedDates.some(d => {
         const completionDate = new Date(d);
         completionDate.setHours(0, 0, 0, 0);
@@ -245,7 +245,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         break;
       }
     }
-    
+
     return streak;
   };
 

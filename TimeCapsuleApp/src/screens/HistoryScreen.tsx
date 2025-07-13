@@ -22,8 +22,8 @@ const HistoryScreen = () => {
   const renderEmptyState = () => (
     <View style={styles.emptyStateContainer}>
       <Ionicons name="time-outline" size={64} color="#e0e0e0" />
-      <Text style={styles.emptyStateTitle}>No History Yet</Text>
-      <Text style={styles.emptyStateText}>Your scanned problems will appear here.</Text>
+      <Text style={styles.emptyStateTitle}>No Capsules Yet</Text>
+      <Text style={styles.emptyStateText}>Your time capsules will appear here.</Text>
     </View>
   );
 
@@ -70,11 +70,6 @@ const styles = StyleSheet.create({
     fontWeight: '500',
     color: '#333',
     marginBottom: 4,
-  },
-  solutionText: {
-    fontSize: 14,
-    color: '#4CAF50',
-    marginBottom: 6,
   },
   dateText: {
     fontSize: 12,
