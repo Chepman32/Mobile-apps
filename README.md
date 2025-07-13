@@ -9,6 +9,10 @@ This repository contains multiple React Native projects built with Expo. Each fo
 - **StoryBuilderApp** - Creative multimedia story builder.
 - **SurvivalGameApp** - Educational survival skills game.
 - **TimeCapsuleApp** - Digital time capsule for memories.
+- **SudokuPuzzleHub** - Offline puzzle collection
+- **ARScavengerHunt** - Augmented reality treasure hunt
+- **RetroArcadeRunner** - Endless runner with retro style
+
 
 ## Creating Projects Automatically
 
