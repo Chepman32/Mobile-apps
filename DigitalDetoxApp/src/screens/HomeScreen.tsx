@@ -1,23 +1,25 @@
 import React from 'react';
 import { View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
+import { StackNavigationProp } from '@react-navigation/stack';
+import { RootStackParamList } from '../types';
 import { CHALLENGES } from '../data/challenges';
-import { Challenge } from '../types';
 
-const HomeScreen = () => {
-  const navigation = useNavigation();
+interface Props {
+  navigation: StackNavigationProp<RootStackParamList, 'Home'>;
+}
 
-  const renderItem = ({ item }: { item: Challenge }) => (
+const HomeScreen: React.FC<Props> = ({ navigation }) => {
+  const renderItem = ({ item }: any) => (
     <TouchableOpacity
       style={styles.itemContainer}
-      onPress={() => navigation.navigate('Challenge', { challengeId: item.id })}
+      onPress={() => navigation.navigate('Challenge', { challenge: item })}
     >
       <View style={styles.itemContent}>
-        <Text style={styles.itemTitle}>{item.name}</Text>
-        <Text style={styles.itemDescription}>{item.durationMinutes} minutes</Text>
+        <Text style={styles.itemTitle}>{item.title}</Text>
+        <Text style={styles.itemDescription}>{item.description}</Text>
       </View>
-      <Ionicons name="chevron-forward" size={24} color="#d1d1d6" />
+      <Ionicons name="chevron-forward" size={24} color="#8e8e93" />
     </TouchableOpacity>
   );
 
@@ -25,7 +27,7 @@ const HomeScreen = () => {
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.title}>Digital Detox</Text>
-        <Text style={styles.subtitle}>Select a challenge to start</Text>
+        <Text style={styles.subtitle}>Choose your challenge</Text>
       </View>
       <FlatList
         data={CHALLENGES}

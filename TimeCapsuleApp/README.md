@@ -11,5 +11,4 @@ yarn install
 expo start
 ```
 
-The current code provides placeholders for creating and viewing time capsules.
-More features will be implemented in the future.
+The current code provides placeholders for creating and viewing time capsules. More features will be implemented in the future.

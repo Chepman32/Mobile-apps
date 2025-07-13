@@ -84,5 +84,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-The current implementation is a starter for tracking habits and journaling.
-More advanced AI features can be integrated later.
+The current implementation is a starter for tracking habits and journaling. More advanced AI features can be integrated later.

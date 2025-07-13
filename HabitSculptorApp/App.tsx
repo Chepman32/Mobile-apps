@@ -88,9 +88,9 @@ function AppContent() {
 
   return (
     <NavigationContainer theme={navigationTheme}>
-      <StatusBar 
-        barStyle={theme === 'dark' ? 'light-content' : 'dark-content'} 
-        backgroundColor={colors.card} 
+      <StatusBar
+        barStyle={theme === 'dark' ? 'light-content' : 'dark-content'}
+        backgroundColor={colors.card}
       />
       <Stack.Navigator
         screenOptions={{
@@ -101,18 +101,18 @@ function AppContent() {
         }}
       >
         <Stack.Screen name="MainTabs" component={MainTabs} options={{ headerShown: false }} />
-        <Stack.Screen 
-          name="HabitDetails" 
-          component={HabitDetailsScreen} 
+        <Stack.Screen
+          name="HabitDetails"
+          component={HabitDetailsScreen}
           options={{
             headerShown: true,
             title: 'Habit Details',
             headerBackTitle: 'Back',
           }}
         />
-        <Stack.Screen 
-          name="AddEditHabit" 
-          component={AddEditHabitScreen} 
+        <Stack.Screen
+          name="AddEditHabit"
+          component={AddEditHabitScreen}
           options={({ route }) => ({
             headerShown: true,
             title: route.params?.habitId ? 'Edit Habit' : 'New Habit',

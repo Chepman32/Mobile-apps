@@ -1,5 +1,17 @@
-# Exclude Yarn install cache
-**/.yarn/
+# Node and build artifacts
+**/node_modules/
+**/.expo/
+**/dist/
+**/web-build/
 
-# Ignore default Expo asset images
+# Yarn artifacts
+**/yarn.lock
+**/.yarn/
+**/.yarnrc.yml
+
+# OS generated files
+.DS_Store
+
+# Default Expo asset images
 **/assets/
+**/assets/*.png
