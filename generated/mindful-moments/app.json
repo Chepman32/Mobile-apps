@@ -1,0 +1,8 @@
+{
+  "name": "MindfulMoments",
+  "slug": "mindful-moments",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "jsEngine": "hermes",
+  "sdkVersion": "53.0.0"
+}
