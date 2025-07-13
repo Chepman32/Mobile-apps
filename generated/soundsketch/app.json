@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "SoundSketch",
+    "slug": "soundsketch",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}
