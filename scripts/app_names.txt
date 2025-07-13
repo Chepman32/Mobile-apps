@@ -4,3 +4,6 @@ StoryBuilderApp
 SurvivalGameApp
 TimeCapsuleApp
 # Add additional app names below, one per line
+SudokuPuzzleHub
+ARScavengerHunt
+RetroArcadeRunner
