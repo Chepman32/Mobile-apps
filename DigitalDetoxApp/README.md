@@ -21,5 +21,6 @@ This project now includes several core screens:
 - History of completed sessions
 - Simple breathing exercise in the Meditation screen
 - A mock Community Leaderboard
+- A basic Settings screen
 
 Further enhancements like premium content packs can be integrated later.
