@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "SwapLocal",
+    "slug": "swaplocal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}
