@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "MemoryVault",
+    "slug": "memoryvault",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}
