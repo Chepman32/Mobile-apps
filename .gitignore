@@ -1,3 +1,10 @@
+# Global ignore
+**/.yarn/install-state.gz
+**/.DS_Store
+
+# Exclude binary images
+**/*.png
+
 # Node and build artifacts
 **/node_modules/
 **/.expo/
