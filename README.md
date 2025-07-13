@@ -12,13 +12,15 @@ This repository contains multiple React Native projects built with Expo. Each fo
 
 ## Creating Projects Automatically
 
-A helper script is available to scaffold all apps in one go using Expo. It checks if a project folder already exists before attempting to create it.
+The `scripts/create_apps.sh` script reads app names from `scripts/app_names.txt` and
+scaffolds each one using Expo. Existing folders are skipped.
 
 ```bash
+# edit scripts/app_names.txt and add one app name per line
 bash scripts/create_apps.sh
 ```
 
-Each generated app will live in its own directory as listed above.
+Each generated app will live in its own directory using the names from the list.
 
 ## Running an App
 
