@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MicroCoach",
-    "slug": "MicroCoach",
+    "name": "ComicCrafter",
+    "slug": "ComicCrafterApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
