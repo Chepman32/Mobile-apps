@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "RecipeSnap",
+    "slug": "recipesnap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "MindGarden",
+    "slug": "mindgarden",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}

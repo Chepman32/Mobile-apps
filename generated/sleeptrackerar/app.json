@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "SleepTrackerAR",
+    "slug": "sleeptrackerar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}

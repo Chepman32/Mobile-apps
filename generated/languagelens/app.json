@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "LanguageLens",
+    "slug": "languagelens",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}

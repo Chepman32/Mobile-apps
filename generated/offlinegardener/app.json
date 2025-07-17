@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "OfflineGardener",
+    "slug": "offlinegardener",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}

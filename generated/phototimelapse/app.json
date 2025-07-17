@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "PhotoTimeLapse",
+    "slug": "phototimelapse",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}

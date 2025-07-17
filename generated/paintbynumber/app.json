@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "PaintByNumber",
+    "slug": "paintbynumber",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}
