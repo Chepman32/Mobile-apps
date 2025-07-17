@@ -1,0 +1,132 @@
+[
+  {
+    "name": "TimeCapsule",
+    "dependencies": [
+      "react-native-sqlite-storage",
+      "react-native-biometrics",
+      "react-native-mmkv",
+      "react-native-share"
+    ],
+    "iap": [
+      "Premium_Capsules",
+      "Future_Themes"
+    ]
+  },
+  {
+    "name": "DreamDecoder",
+    "dependencies": [
+      "react-native-ml-kit",
+      "react-native-sqlite-storage",
+      "react-native-tts",
+      "react-native-chart-kit"
+    ],
+    "iap": [
+      "Dream_Symbols",
+      "Analysis_Pro"
+    ]
+  },
+  {
+    "name": "MoodPaint",
+    "dependencies": [
+      "react-native-svg",
+      "react-native-gesture-handler",
+      "react-native-sqlite-storage",
+      "react-native-fs"
+    ],
+    "iap": [
+      "Color_Therapy",
+      "Mood_Brushes"
+    ]
+  },
+  {
+    "name": "SoundSculptor",
+    "dependencies": [
+      "react-native-sound",
+      "react-native-svg",
+      "react-native-sensors",
+      "react-native-sqlite-storage"
+    ],
+    "iap": [
+      "Sound_Sculpting",
+      "Spatial_Audio"
+    ]
+  },
+  {
+    "name": "MemoryArchitect",
+    "dependencies": [
+      "react-native-svg",
+      "react-native-gesture-handler",
+      "react-native-sqlite-storage",
+      "react-native-sensors"
+    ],
+    "iap": [
+      "Memory_Palaces",
+      "Recall_Boost"
+    ]
+  },
+  {
+    "name": "BiometricMood",
+    "dependencies": [
+      "react-native-sensors",
+      "react-native-biometrics",
+      "react-native-sqlite-storage",
+      "react-native-chart-kit"
+    ],
+    "iap": [
+      "Biometric_Analysis",
+      "Health_Insights"
+    ]
+  },
+  {
+    "name": "StoryWeaver",
+    "dependencies": [
+      "react-native-sqlite-storage",
+      "react-native-tts",
+      "react-native-fs",
+      "react-native-svg"
+    ],
+    "iap": [
+      "Story_Templates",
+      "Character_Builder"
+    ]
+  },
+  {
+    "name": "MindMaze",
+    "dependencies": [
+      "react-native-sqlite-storage",
+      "react-native-svg",
+      "react-native-gesture-handler",
+      "react-native-chart-kit"
+    ],
+    "iap": [
+      "Cognitive_Puzzles",
+      "Brain_Training"
+    ]
+  },
+  {
+    "name": "EmotionMirror",
+    "dependencies": [
+      "react-native-ml-kit",
+      "react-native-camera",
+      "react-native-sqlite-storage",
+      "react-native-chart-kit"
+    ],
+    "iap": [
+      "Emotion_Analysis",
+      "Mood_Prediction"
+    ]
+  },
+  {
+    "name": "ScentTracker",
+    "dependencies": [
+      "react-native-sqlite-storage",
+      "react-native-chart-kit",
+      "react-native-push-notification",
+      "react-native-calendars"
+    ],
+    "iap": [
+      "Scent_Database",
+      "Aromatherapy_Guide"
+    ]
+  }
+]
