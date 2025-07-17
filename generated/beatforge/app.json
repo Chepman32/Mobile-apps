@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "BeatForge",
+    "slug": "beatforge",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./src/assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a1a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.beatforge.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/icon.png",
+        "backgroundColor": "#1a1a1a"
+      },
+      "package": "com.beatforge.app"
+    },
+    "web": {
+      "favicon": "./src/assets/icon.png"
+    },
+    "plugins": [
+      ["expo-av", {
+        "microphonePermission": "Allow BeatForge to access microphone for tempo detection."
+      }]
+    ]
+  }
+}
