@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "VoiceClone",
+    "slug": "voiceclone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}
