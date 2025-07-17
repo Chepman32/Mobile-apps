@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "PomoFocus Pro",
+    "slug": "pomofocus-pro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}
