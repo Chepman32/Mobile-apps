@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "InkPad",
+    "slug": "inkpad",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}
