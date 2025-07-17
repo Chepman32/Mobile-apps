@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "MoodCraft",
+    "slug": "moodcraft",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}
