@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "Brainwave Tuner",
+    "slug": "brainwave-tuner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}

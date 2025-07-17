@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "Language Flashcards",
+    "slug": "language-flashcards",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}
