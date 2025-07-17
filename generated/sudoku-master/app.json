@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "SudokuMaster",
+    "slug": "sudoku-master",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}
