@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "MoodTracker",
+    "slug": "moodtracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}

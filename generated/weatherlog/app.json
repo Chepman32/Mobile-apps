@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "WeatherLog",
+    "slug": "weatherlog",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}

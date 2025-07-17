@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "FitnessLog",
+    "slug": "fitnesslog",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}
