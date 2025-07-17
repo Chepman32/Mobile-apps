@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "CodeFlow",
+    "slug": "codeflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}

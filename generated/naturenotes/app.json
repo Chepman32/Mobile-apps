@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "NatureNotes",
+    "slug": "naturenotes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}

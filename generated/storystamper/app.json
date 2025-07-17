@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "StoryStamper",
+    "slug": "storystamper",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "FinanceSim",
+    "slug": "financesim",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}

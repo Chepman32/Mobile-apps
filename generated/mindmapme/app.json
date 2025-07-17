@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "MindMapMe",
+    "slug": "mindmapme",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}
