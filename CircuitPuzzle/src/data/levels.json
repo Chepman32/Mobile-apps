@@ -1,0 +1,62 @@
+
+{
+  "levels": [
+    {
+      "id": "1",
+      "name": "Level 1: Basic AND",
+      "locked": false,
+      "puzzle": {
+        "gridSize": 3,
+        "elements": [
+          { "id": "inputA", "type": "input", "x": 0, "y": 0, "value": false },
+          { "id": "inputB", "type": "input", "x": 0, "y": 2, "value": false },
+          { "id": "andGate", "type": "and", "x": 1, "y": 1 },
+          { "id": "output", "type": "output", "x": 2, "y": 1, "expected": false }
+        ],
+        "connections": [
+          { "from": "inputA", "to": "andGate", "inputIdx": 0 },
+          { "from": "inputB", "to": "andGate", "inputIdx": 1 },
+          { "from": "andGate", "to": "output" }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "name": "Level 2: Basic OR",
+      "locked": false,
+      "puzzle": {
+        "gridSize": 3,
+        "elements": [
+          { "id": "inputA", "type": "input", "x": 0, "y": 0, "value": false },
+          { "id": "inputB", "type": "input", "x": 0, "y": 2, "value": false },
+          { "id": "orGate", "type": "or", "x": 1, "y": 1 },
+          { "id": "output", "type": "output", "x": 2, "y": 1, "expected": false }
+        ],
+        "connections": [
+          { "from": "inputA", "to": "orGate", "inputIdx": 0 },
+          { "from": "inputB", "to": "orGate", "inputIdx": 1 },
+          { "from": "orGate", "to": "output" }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "name": "Level 3: Pro Level (NAND)",
+      "locked": true,
+      "puzzle": {
+        "gridSize": 3,
+        "elements": [
+          { "id": "inputA", "type": "input", "x": 0, "y": 0, "value": false },
+          { "id": "inputB", "type": "input", "x": 0, "y": 2, "value": false },
+          { "id": "nandGate", "type": "nand", "x": 1, "y": 1 },
+          { "id": "output", "type": "output", "x": 2, "y": 1, "expected": false }
+        ],
+        "connections": [
+          { "from": "inputA", "to": "nandGate", "inputIdx": 0 },
+          { "from": "inputB", "to": "nandGate", "inputIdx": 1 },
+          { "from": "nandGate", "to": "output" }
+        ]
+      }
+    }
+  ]
+}

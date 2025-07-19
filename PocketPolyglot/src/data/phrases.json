@@ -1,0 +1,32 @@
+
+{
+  "categories": [
+    {
+      "id": "basic",
+      "name": "Basic Phrases",
+      "phrases": [
+        { "id": "1", "english": "Hello", "translation": "Hola" },
+        { "id": "2", "english": "Goodbye", "translation": "Adiós" },
+        { "id": "3", "english": "Thank you", "translation": "Gracias" }
+      ]
+    },
+    {
+      "id": "travel",
+      "name": "Travel",
+      "pro": true,
+      "phrases": [
+        { "id": "4", "english": "Where is the bathroom?", "translation": "¿Dónde está el baño?" },
+        { "id": "5", "english": "How much does this cost?", "translation": "¿Cuánto cuesta esto?" }
+      ]
+    },
+    {
+      "id": "medicine",
+      "name": "Medicine",
+      "pro": true,
+      "phrases": [
+        { "id": "6", "english": "I need a doctor", "translation": "Necesito un médico" },
+        { "id": "7", "english": "I am allergic to...", "translation": "Soy alérgico a..." }
+      ]
+    }
+  ]
+}

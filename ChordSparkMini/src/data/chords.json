@@ -1,0 +1,45 @@
+
+{
+  "chords": [
+    {
+      "id": "C_major",
+      "name": "C Major",
+      "instrument": "guitar",
+      "diagram": "x32010",
+      "audio": "C_major.mp3",
+      "locked": false
+    },
+    {
+      "id": "G_major",
+      "name": "G Major",
+      "instrument": "guitar",
+      "diagram": "320003",
+      "audio": "G_major.mp3",
+      "locked": false
+    },
+    {
+      "id": "D_major",
+      "name": "D Major",
+      "instrument": "guitar",
+      "diagram": "xx0232",
+      "audio": "D_major.mp3",
+      "locked": false
+    },
+    {
+      "id": "A_minor",
+      "name": "A Minor",
+      "instrument": "guitar",
+      "diagram": "x02210",
+      "audio": "A_minor.mp3",
+      "locked": true
+    },
+    {
+      "id": "E_minor",
+      "name": "E Minor",
+      "instrument": "guitar",
+      "diagram": "022000",
+      "audio": "E_minor.mp3",
+      "locked": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+
+{
+  "wordPacks": [
+    {
+      "id": "basic",
+      "name": "Basic Words",
+      "locked": false,
+      "words": ["APPLE", "BANANA", "CAT", "DOG", "ELEPHANT", "FISH", "GRAPE", "HOUSE", "IGLOO", "JUMP"]
+    },
+    {
+      "id": "animals",
+      "name": "Animals",
+      "locked": true,
+      "words": ["LION", "TIGER", "BEAR", "ZEBRA", "MONKEY", "PANDA", "GIRAFFE", "DOLPHIN", "SHARK", "WOLF"]
+    }
+  ]
+}

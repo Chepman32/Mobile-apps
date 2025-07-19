@@ -1,0 +1,23 @@
+
+{
+  "decks": [
+    {
+      "id": "basic_math",
+      "name": "Basic Math",
+      "locked": false,
+      "cards": [
+        { "id": "1", "question": "2 + 2", "answer": "4", "interval": 0, "easeFactor": 2.5, "dueDate": "" },
+        { "id": "2", "question": "5 * 3", "answer": "15", "interval": 0, "easeFactor": 2.5, "dueDate": "" }
+      ]
+    },
+    {
+      "id": "gre_verbal",
+      "name": "GRE Verbal",
+      "locked": true,
+      "cards": [
+        { "id": "3", "question": "Abate", "answer": "(of something perceived as hostile, threatening, or negative) become less intense or widespread.", "interval": 0, "easeFactor": 2.5, "dueDate": "" },
+        { "id": "4", "question": "Aberrant", "answer": "departing from an accepted standard.", "interval": 0, "easeFactor": 2.5, "dueDate": "" }
+      ]
+    }
+  ]
+}

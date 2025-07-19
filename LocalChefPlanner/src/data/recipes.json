@@ -1,0 +1,47 @@
+
+{
+  "recipes": [
+    {
+      "id": "1",
+      "name": "Spaghetti Carbonara",
+      "ingredients": [
+        "200g spaghetti",
+        "100g pancetta or guanciale",
+        "2 large eggs",
+        "50g Pecorino Romano cheese",
+        "Black pepper"
+      ],
+      "instructions": "1. Cook spaghetti. 2. Fry pancetta. 3. Mix eggs, cheese, pepper. 4. Combine all.",
+      "category": "Pasta",
+      "locked": false
+    },
+    {
+      "id": "2",
+      "name": "Chicken Stir-fry",
+      "ingredients": [
+        "300g chicken breast",
+        "Mixed vegetables",
+        "Soy sauce",
+        "Ginger",
+        "Garlic"
+      ],
+      "instructions": "1. Slice chicken and veggies. 2. Stir-fry chicken. 3. Add veggies and sauce.",
+      "category": "Main Course",
+      "locked": false
+    },
+    {
+      "id": "3",
+      "name": "Keto Salmon with Asparagus",
+      "ingredients": [
+        "2 salmon fillets",
+        "1 bunch asparagus",
+        "Olive oil",
+        "Lemon",
+        "Dill"
+      ],
+      "instructions": "1. Season salmon and asparagus. 2. Bake at 200C for 15 mins.",
+      "category": "Keto",
+      "locked": true
+    }
+  ]
+}

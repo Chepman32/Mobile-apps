@@ -1,0 +1,19 @@
+
+{
+  "levels": [
+    {
+      "id": "1",
+      "name": "The Old Study",
+      "image": "old_study.jpg",
+      "objectsToFind": ["book", "magnifying_glass", "quill"],
+      "locked": false
+    },
+    {
+      "id": "2",
+      "name": "The Enchanted Forest",
+      "image": "enchanted_forest.jpg",
+      "objectsToFind": ["mushroom", "fairy", "magic_wand"],
+      "locked": true
+    }
+  ]
+}

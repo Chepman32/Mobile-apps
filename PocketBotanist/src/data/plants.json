@@ -1,0 +1,41 @@
+
+{
+  "plants": [
+    {
+      "id": "1",
+      "name": "Sunflower",
+      "scientificName": "Helianthus annuus",
+      "description": "A tall annual plant of the daisy family, with very large golden-rayed flowers.",
+      "care": "Requires full sun and well-drained soil. Water regularly.",
+      "image": "sunflower.jpg",
+      "locked": false
+    },
+    {
+      "id": "2",
+      "name": "Rose",
+      "scientificName": "Rosa",
+      "description": "A woody perennial flowering plant of the genus Rosa, in the family Rosaceae.",
+      "care": "Needs at least six hours of direct sun. Water deeply and regularly.",
+      "image": "rose.jpg",
+      "locked": false
+    },
+    {
+      "id": "3",
+      "name": "Orchid",
+      "scientificName": "Orchidaceae",
+      "description": "A diverse and widespread family of flowering plants, with colorful and fragrant blooms.",
+      "care": "Requires bright, indirect light. Water once a week.",
+      "image": "orchid.jpg",
+      "locked": true
+    },
+    {
+      "id": "4",
+      "name": "Venus Flytrap",
+      "scientificName": "Dionaea muscipula",
+      "description": "A carnivorous plant native to subtropical wetlands on the East Coast of the United States.",
+      "care": "Needs boggy, nutrient-poor soil and high humidity. Feed with insects.",
+      "image": "venus_flytrap.jpg",
+      "locked": true
+    }
+  ]
+}

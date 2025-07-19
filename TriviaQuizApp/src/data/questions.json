@@ -1,0 +1,22 @@
+
+{
+  "quizzes": [
+    {
+      "id": "general_knowledge",
+      "name": "General Knowledge",
+      "locked": false,
+      "questions": [
+        { "id": "q1", "question": "What is the capital of France?", "options": ["Berlin", "Madrid", "Paris", "Rome"], "answer": "Paris" },
+        { "id": "q2", "question": "What is 2 + 2?", "options": ["3", "4", "5", "6"], "answer": "4" }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science Quiz",
+      "locked": true,
+      "questions": [
+        { "id": "q3", "question": "What is the chemical symbol for water?", "options": ["O2", "H2O", "CO2", "NaCl"], "answer": "H2O" }
+      ]
+    }
+  ]
+}

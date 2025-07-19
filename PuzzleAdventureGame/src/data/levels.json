@@ -1,0 +1,35 @@
+
+{
+  "levels": [
+    {
+      "id": "1",
+      "name": "The Whispering Woods",
+      "type": "sliding_puzzle",
+      "locked": false,
+      "puzzleData": {
+        "grid": [[1,2,3],[4,5,6],[7,8,0]],
+        "solution": [[1,2,3],[4,5,6],[7,8,0]]
+      }
+    },
+    {
+      "id": "2",
+      "name": "The Sunken Temple",
+      "type": "matching_pairs",
+      "locked": false,
+      "puzzleData": {
+        "pairs": ["A","B","C","D"],
+        "gridSize": 4
+      }
+    },
+    {
+      "id": "3",
+      "name": "The Dragon's Lair",
+      "type": "sliding_puzzle",
+      "locked": true,
+      "puzzleData": {
+        "grid": [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,0]],
+        "solution": [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,0]]
+      }
+    }
+  ]
+}

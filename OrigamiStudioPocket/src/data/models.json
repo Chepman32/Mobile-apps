@@ -1,0 +1,33 @@
+
+{
+  "models": [
+    {
+      "id": "1",
+      "name": "Paper Crane",
+      "category": "Classic",
+      "locked": false,
+      "description": "A timeless origami classic."
+    },
+    {
+      "id": "2",
+      "name": "Origami Boat",
+      "category": "Classic",
+      "locked": false,
+      "description": "Simple and fun to fold."
+    },
+    {
+      "id": "3",
+      "name": "Jumping Frog",
+      "category": "Animals",
+      "locked": true,
+      "description": "A fun, interactive origami model."
+    },
+    {
+      "id": "4",
+      "name": "Origami Star",
+      "category": "Seasonal Decorations",
+      "locked": true,
+      "description": "Perfect for holidays."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+
+{
+  "workouts": [
+    {
+      "id": "1",
+      "name": "Basic 7-Minute HIIT",
+      "locked": false,
+      "exercises": [
+        { "name": "Jumping Jacks", "duration": 30, "video": "jumping_jacks.mp4" },
+        { "name": "Wall Sit", "duration": 30, "video": "wall_sit.mp4" },
+        { "name": "Push-ups", "duration": 30, "video": "push_ups.mp4" },
+        { "name": "Abdominal Crunch", "duration": 30, "video": "abdominal_crunch.mp4" },
+        { "name": "Step-up onto chair", "duration": 30, "video": "step_up.mp4" },
+        { "name": "Squats", "duration": 30, "video": "squats.mp4" },
+        { "name": "Triceps Dip on chair", "duration": 30, "video": "triceps_dip.mp4" },
+        { "name": "Plank", "duration": 30, "video": "plank.mp4" },
+        { "name": "High Knees Running in Place", "duration": 30, "video": "high_knees.mp4" },
+        { "name": "Lunges", "duration": 30, "video": "lunges.mp4" },
+        { "name": "Push-up and Rotation", "duration": 30, "video": "push_up_rotation.mp4" },
+        { "name": "Side Plank", "duration": 30, "video": "side_plank.mp4" }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Cardio Blast",
+      "locked": true,
+      "exercises": [
+        { "name": "Burpees", "duration": 45, "video": "burpees.mp4" },
+        { "name": "Mountain Climbers", "duration": 45, "video": "mountain_climbers.mp4" },
+        { "name": "Jump Squats", "duration": 45, "video": "jump_squats.mp4" }
+      ]
+    }
+  ]
+}
