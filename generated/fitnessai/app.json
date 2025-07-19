@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "FitnessAI",
+    "slug": "fitnessai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes"
+  }
+}
