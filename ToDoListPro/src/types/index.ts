@@ -23,6 +23,7 @@ export interface Task extends BaseEntity {
   };
   location?: string;
   collaborators?: string[];
+  projectIds?: string[]; // Array of project IDs this task belongs to
 }
 
 export interface SubTask {

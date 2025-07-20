@@ -10,12 +10,19 @@
   },
   "dependencies": {
     "@realm/react": "^0.11.0",
+    "@react-navigation/native": "^7.1.14",
+    "@react-navigation/stack": "^7.4.2",
     "expo": "~53.0.17",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
     "react-native": "0.79.5",
     "react-native-haptic-feedback": "^2.3.3",
-    "react-native-mmkv": "^3.3.0"
+    "react-native-mmkv": "^3.3.0",
+    "react-native-gesture-handler": "^2.27.1",
+    "react-native-safe-area-context": "^5.5.2",
+    "react-native-screens": "^4.11.1",
+    "react-native-paper": "^5.12.3",
+    "react-native-vector-icons": "^10.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
