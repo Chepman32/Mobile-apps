@@ -478,7 +478,7 @@ const HomeScreen: React.FC = () => {
               size={50}
               style={styles.userAvatar}
             />
-          </View>
+    </View>
         </Surface>
 
         {/* Stats Card */}

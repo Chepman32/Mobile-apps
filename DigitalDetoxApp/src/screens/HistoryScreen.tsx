@@ -322,8 +322,8 @@ export default function HistoryScreen() {
                     <Text style={styles.detailValue}>
                       {formatDate(session.startedAt)} at {formatTime(session.startedAt)}
                     </Text>
-                  </View>
-                  
+      </View>
+
                   {session.completedAt && (
                     <View style={styles.detailRow}>
                       <Text style={styles.detailLabel}>Completed:</Text>
@@ -378,7 +378,7 @@ export default function HistoryScreen() {
                   >
                     Delete
                   </Button>
-                </View>
+        </View>
               </Card.Content>
             </Card>
           ))

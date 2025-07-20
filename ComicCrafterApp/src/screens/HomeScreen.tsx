@@ -255,7 +255,7 @@ const HomeScreen: React.FC = () => {
             <Text style={styles.tipText}>
               • Save your work regularly
             </Text>
-          </View>
+    </View>
         </Card.Content>
       </Card>
     </ScrollView>

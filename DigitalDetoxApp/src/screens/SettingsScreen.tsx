@@ -320,7 +320,7 @@ export default function SettingsScreen() {
             description="Automatically backup your data"
             left={() => <List.Icon icon="cloud-upload" />}
             right={() => (
-              <Switch
+            <Switch
                 value={settings.dataExport.autoBackup}
                 onValueChange={handleAutoBackupToggle}
               />
@@ -446,7 +446,7 @@ export default function SettingsScreen() {
       >
         {snackbarMessage}
       </Snackbar>
-    </ScrollView>
+      </ScrollView>
   );
 }
 
