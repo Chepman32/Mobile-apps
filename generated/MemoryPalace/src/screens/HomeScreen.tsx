@@ -10,6 +10,7 @@ export default function HomeScreen() {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>MemoryPalace</Text>
+      <Button title='Palaces' onPress={() => navigation.navigate('Palaces')} />
       <Button title='Settings' onPress={() => navigation.navigate('Settings')} />
     </View>
   );

@@ -21,7 +21,9 @@
     "react-native-iap": "^12.19.0",
     "expo-asset": "~8.16.1",
     "react-native-mmkv": "^2.11.0",
-    "react-native-svg": "*"
+    "react-native-svg": "*",
+    "uuid": "^9.0.0",
+    "zustand": "^4.5.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
